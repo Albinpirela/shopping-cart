@@ -24,7 +24,7 @@ header {
 .input{
   border: 2px solid black;
   width: 40%;
-  height: 3vh;
+  height: 5vh;
 
 }
 
@@ -36,7 +36,7 @@ header {
 
 .shoping{
   width: 4%;
-  height: 80%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,4 +45,28 @@ header {
 
 .fa-cart-shopping{
   font-size: 2rem;
+}
+
+.producto {
+  box-sizing: border-box;
+  width: 30%;
+  height: 50%;
+}
+
+.producto > img{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+ display: flex;
+ justify-content: space-around;
+ align-items:center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100%;  
+}
+h1{
+  text-align: center;
 }
